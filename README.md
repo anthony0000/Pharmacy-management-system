@@ -1,5 +1,18 @@
 # Complete pharmacy management system
 
+# Note:
+this is a modified clone of this repo "https://github.com/MusheAbdulHakim/Pharmacy-management-system.git"
+with the following changes below
+
+```
+1. Made it loadable without "php artisan serve"
+2. Modified the font family to look more professional
+3. fixed certain UI disorientation
+4. fixed certain loop statements e.g edit sale page
+5. fixed laravel error issues for migrate
+6. made the .env file available for less commands
+```
+
 # Features
 
 1. Products
@@ -20,7 +33,7 @@
  Follow these steps to install the application.
 1. Clone the Repository
 ```
-git clone https://github.com/MusheAbdulHakim/Pharmacy-management-system.git
+git clone git@github.com:anthony0000/Pharmacy-management-system.git
 ```
 2. Go to project directory
 
@@ -38,45 +51,35 @@ composer install
 ```
 npm install; npm run dev
 ```
-5. Create your database 
+5. Create a database called "pharmacy" in phpmyadmin
 
-6. Rename .env.example to .env Or copy it and paste at project root directory and name the file .env.You can also use this command.
-
-```
-cp .env.example ./.env
-```
-7. Generate app key with this command
+6. Generate app key with this command (terminal)
 ```
 php artisan key:generate
 ```
 
-8. Set database connection to your database in the .env file.
+7. Set database connection to your database in the .env file.
 
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=doccure
+DB_DATABASE=pharmacy
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-9. Import full database sql file in the database folder, or run migrations
+8. Import full database sql file in the database folder, or run migrations
 Use this command to run migrations
 
 ```
 php artisan migrate --seed
 ```
-10. Start the local server and browser to your app.
-This command will start the development server
-```
-php artisan serve
-```
 
-11. Open the address in the terminal in your browser.Usually address is usually like this:
+9. Open the address in the terminal in your browser.Usually address is usually like this:
 ```
-http://127.0.0.1:8000
+http://localhost/project-name
 ```
-12. Enjoy and make sure to star the repo :).Report bugs,features and also send your pull requests.
+10. Enjoy and make sure to star the repo :).Report bugs,features and also send your pull requests.
 
 # admin login credentials
 
