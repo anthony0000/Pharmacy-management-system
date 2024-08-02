@@ -51,8 +51,11 @@ composer install
 ```
 npm install; npm run dev
 ```
-5. Create a database called "pharmacy" in phpmyadmin
-
+5. i. Create a database called "pharmacy" in phpmyadmin
+   ii. then run the following command
+```
+php artisan migrate
+```
 6. Generate app key with this command (terminal)
 ```
 php artisan key:generate
