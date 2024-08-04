@@ -5,6 +5,10 @@ this is a modified clone of this repo "https://github.com/MusheAbdulHakim/Pharma
 with the following changes below
 
 ```
+make sure you use WAMP not XAMPP (because of PHP version control, one can easily switch between PHP versions ranging from (7.4 to 8.2))
+```
+
+```
 1. Made it loadable without "php artisan serve"
 2. Modified the font family to look more professional
 3. fixed certain UI disorientation
