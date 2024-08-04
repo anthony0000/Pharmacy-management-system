@@ -42,24 +42,20 @@ git clone git@github.com:anthony0000/Pharmacy-management-system.git
 cd Pharmacy-management-system
 ```
 
-3. Install packages with composer
+3. Create a database called "pharmacy" in phpmyadmin
 
+4. run the following command to auto create tables
+   
 ```
-composer install
+php artisan migrate --seed
 ```
 
-4. Install npm packages with 
-```
-npm install; npm run dev
-```
-5. Create a database called "pharmacy" in phpmyadmin
-
-6. Generate app key with this command (terminal)
+5. Generate app key with this command (terminal)
 ```
 php artisan key:generate
 ```
 
-7. Set database connection to your database in the .env file.
+6. Set database connection to your database in the .env file.
 
 ```
 DB_CONNECTION=mysql
@@ -69,18 +65,13 @@ DB_DATABASE=pharmacy
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-8. Import full database sql file in the database folder, or run migrations
-Use this command to run migrations
 
-```
-php artisan migrate --seed
-```
-
-9. Open the address in the terminal in your browser.Usually address is usually like this:
+7. Open the address in the terminal in your browser.
+   Usually address is usually like this:
 ```
 http://localhost/project-name
 ```
-10. Enjoy and make sure to star the repo :).Report bugs,features and also send your pull requests.
+8. Enjoy and make sure to star the repo :).Report bugs,features and also send your pull requests.
 
 # admin login credentials
 
