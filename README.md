@@ -11,6 +11,7 @@ with the following changes below
 4. fixed certain loop statements e.g edit sale page
 5. fixed laravel error issues for migrate
 6. made the .env file available for less commands
+7. added vendor files to avoid excess requirements of laravel commands
 ```
 
 # Features
