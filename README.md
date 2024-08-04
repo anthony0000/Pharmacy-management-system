@@ -5,10 +5,6 @@ this is a modified clone of this repo "https://github.com/MusheAbdulHakim/Pharma
 with the following changes below
 
 ```
-make sure you use WAMP not XAMPP (because of PHP version control, one can easily switch between PHP versions ranging from (7.4 to 8.2))
-```
-
-```
 1. Made it loadable without "php artisan serve"
 2. Modified the font family to look more professional
 3. fixed certain UI disorientation
@@ -55,11 +51,8 @@ composer install
 ```
 npm install; npm run dev
 ```
-5. i. Create a database called "pharmacy" in phpmyadmin
-   ii. then run the following command
-```
-php artisan migrate
-```
+5. Create a database called "pharmacy" in phpmyadmin
+
 6. Generate app key with this command (terminal)
 ```
 php artisan key:generate
